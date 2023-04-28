@@ -9,6 +9,8 @@ public class DBConnection {
     private static String URL="jdbc:mysql://localhost:3306/mugarria_6";
     private static String USER="root";
     private static String PASS="zubiri";
+    private static String QUERY_SELECT_PHOTOGRAPHERS="SELECT * FROM Photographers";
+    private static String QUERY_SELECT_PICTURES="SELECT * FROM Pictures";
 
     public static Connection getConnection() {
         if (connection == null) {
@@ -25,9 +27,8 @@ public class DBConnection {
     public List<Photographer> getAllPhotographers() {
         List<Photographer> photographers = new ArrayList<>();
         try {
-            String query = "SELECT * FROM Photographers";
             Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
+            ResultSet resultSet = statement.executeQuery(QUERY_SELECT_PHOTOGRAPHERS);
             while (resultSet.next()) {
                 int photographerId = resultSet.getInt("photographerId");
                 String name = resultSet.getString("name_");
@@ -42,6 +43,17 @@ public class DBConnection {
         return photographers;
     }
 
+    public List<Picture> getAllPictures() {
+        List<Picture> pictures = new ArrayList<>();
+        try{
+            Statement stm=connection.createStatement();
+            ResultSet resultSet = stm.executeQuery();
+        }catch(){
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 
 
