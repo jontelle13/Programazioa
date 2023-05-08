@@ -1,0 +1,30 @@
+Este artículo trata sobre el lenguaje de programación. Para el grupo de humoristas, véase Monty Python.
+Para el revólver, véase Colt Python.
+Para la serpiente, véase Pythonidae.
+Para otros usos de este término, véase Pitón.
+Python
+Python-logo-notext.svg
+Desarrollador(es)
+Python Software Foundation
+Sitio web oficial
+Información general
+Extensiones comunes	.py, .pyc, .pyd, .pyo, .pyw, .pyz, .pyi
+Paradigma	Multiparadigma: orientado a objetos, imperativo, funcional, reflexivo
+Apareció en	1991
+Diseñado por	Guido van Rossum
+Última versión estable	3.11.21​ (7 de febrero de 2023 (1 mes y 13 días))
+Sistema de tipos	Fuertemente tipado, dinámico
+Implementaciones	CPython, IronPython, Jython, Python for S60, PyPy, ActivePython, Unladen Swallow
+Dialectos	Stackless Python, RPython
+Influido por	ABC, ALGOL 68, C, Haskell, Icon, Lisp, Modula-3, Perl, Smalltalk, Java
+Ha influido a	Boo, Cobra, D, Falcon, Genie, Groovy, Ruby, JavaScript, Cython, Go Latino
+Sistema operativo	Multiplataforma
+Licencia	Python Software Foundation License
+[editar datos en Wikidata]
+Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, 
+se utiliza para desarrollar aplicaciones de todo tipo, ejemplos: Instagram, Netflix, Spotify, Panda3D, entre otros.2​ Se trata 
+de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y,
+ en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
+
+Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundation License.3​
+ Python se clasifica constantemente como uno de los lenguajes de programación
